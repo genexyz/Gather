@@ -23,5 +23,4 @@ TODO:
 [TRIP]
 -Live chat for passengers inside a trip page. (Socket.Io?)
 -Embed map with recommended route for the trip.
--Add restrictions to description and notes length. Validate max height of divs.
 -i18n on estimated time. Now shows only english.

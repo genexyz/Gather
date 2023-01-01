@@ -85,7 +85,10 @@ export default async function handle(req, res) {
     if (totalSlots > vehicleSeats - 1)
       newErrors.totalSlots = "Cannot be greater than vehicle available seats!";
     if (!description || description === "") newErrors.description = "Cannot be blank!";
+    if (description.length > 250)
+      newErrors.description = "Cannot be longer than 250 characters!";
     if (!notes) notes = "";
+    if (notes.length > 250) newErrors.notes = "Cannot be longer than 250 characters!";
     if (!distance) distance = "";
     if (!duration) duration = "";
     if (smoking === null) newErrors.smoking = "Cannot be null!";

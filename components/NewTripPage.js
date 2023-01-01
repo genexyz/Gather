@@ -186,7 +186,9 @@ export default function NewTripPage(props) {
     if (totalSlots > vehicleSeats - 1)
       newErrors.totalSlots = t("cannot-be-greater-than-total-seats");
     if (!description || description === "") newErrors.description = t("cannot-be-blank");
+    if (description.length > 250) newErrors.description = t("cannot-be-longer-than-250");
     if (!notes || notes === "") newErrors.notes = t("cannot-be-blank");
+    if (notes.length > 250) newErrors.notes = t("cannot-be-longer-than-250");
     if (smoking === null) newErrors.smoking = t("cannot-be-null");
     if (pets === null) newErrors.pets = t("cannot-be-null");
     if (kids === null) newErrors.kids = t("cannot-be-null");

@@ -231,6 +231,7 @@
   "cannot-be-different-than-public-private": "Cannot be different than public/private!",
   "cannot-be-diff-than-vehicle-type": "Cannot be a value different than Car, Motorbike, Bus, Van, Truck or Other!",
   "cannot-be-blank-and-should-be-number": "Cannot be blank & should be a number!",
+  "cannot-be-longer-than-250": "Cannot be longer than 250 characters!",
   "not-authorized": "You are not authorized to perform this action!",
   "server-error": "Server error, please try again later!",
   "couldnt-edit-user": "Couldn't edit user, see Errors!",

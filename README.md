@@ -1,6 +1,9 @@
 # Gather🚗
 
-Gather's mission is to promote sustainable transportation and reduce environmental impact by connecting individuals for carpooling arrangements.## Description
+Gather's mission is to promote sustainable transportation and reduce environmental impact by connecting individuals for carpooling arrangements.
+
+## Description
+
 This website allows users to join or create shared carpool trips to save money, meet new people, and help the environment by reducing traffic. It provides a platform for individuals traveling to the same location to connect and share the cost of the trip. The goal of the website is to promote carpooling as a cost-effective, social, and environmentally-friendly transportation option.
 
 The main functionalities of the website are the following:

@@ -1,0 +1,59 @@
+.container {
+  margin-top: 7em;
+  padding: 2em;
+  padding-top: 1em;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.mainRow {
+  text-align: center;
+}
+
+.mainRow h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+.saveButtonRow {
+  justify-content: center;
+}
+
+.saveButton {
+  width: 250px;
+  padding: 0.7em 1em;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 0.8em;
+}
+
+.loginBtn {
+  width: 200px;
+  background-color: rgb(24, 176, 90);
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.loginBtn:hover {
+  background-color: rgb(37, 200, 108);
+  color: #fff;
+}
+.loginBtn:active {
+  background-color: rgb(37, 200, 108);
+  color: #fff;
+}
+.loginBtn:focus {
+  background-color: rgb(24, 176, 90);
+  box-shadow: none;
+}

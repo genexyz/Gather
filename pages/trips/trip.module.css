@@ -1,0 +1,406 @@
+.section {
+  background-color: #ffffff;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+
+.container {
+  width: 95%;
+}
+
+.userCol {
+  background-color: #0a8080;
+  padding: 2em;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .userCol {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+.user {
+  align-items: center;
+}
+
+.userImage {
+  border-radius: 10em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.userInfo h3 {
+  font-size: 1.4em;
+  margin-bottom: 0em;
+  font-weight: 700;
+  color: white;
+}
+
+.starsAverage {
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+}
+
+.stars {
+  top: 5px;
+}
+.stars span span span svg {
+  color: rgb(255, 196, 0);
+}
+
+.userBio {
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: azure;
+  font-size: 1em;
+  color: #025959;
+  font-weight: 500;
+  font-style: italic;
+  word-wrap: break-word;
+}
+
+.profileButton {
+  width: 160px;
+  background-color: #0a8080;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 0.1em;
+  padding: 0.5em 1em;
+  margin-right: auto;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.profileButton:hover {
+  background-color: rgb(16, 19, 45);
+  border: 2px solid white;
+}
+.profileButton:active {
+  background-color: rgb(16, 19, 45);
+  border: 2px solid white;
+}
+.profileButton:focus {
+  background-color: #0a8080;
+  border: 2px solid white;
+  box-shadow: none;
+}
+
+.vehicleRow {
+  align-items: center;
+}
+
+.vehicleNameCol p {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  padding-top: 1em;
+}
+
+.tripCol {
+  background-color: #eaf3f3;
+  padding: 2em;
+}
+
+.destinationRow {
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.tripOriginCol {
+  align-items: center;
+}
+
+.tripOriginCol h3 {
+  font-size: 1.3em;
+  margin-bottom: 0em;
+  font-weight: 700;
+  color: black;
+}
+
+.tripOriginCol p {
+  font-size: 1em;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+
+.arrowRow {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.dateRow {
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.dateTextCol h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.slotsRow {
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.slotsTextCol h3 {
+  font-size: 1.3em;
+  margin: 0;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.slotsTextCol h3 span {
+  color: orange;
+  font-size: 1.7em;
+  margin-right: 0.2em;
+}
+
+.tripDesc {
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #ce1a5f;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.paper {
+  min-height: 60px;
+  position: relative;
+  margin: 1em auto;
+  padding-top: 0.25em;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px #888;
+}
+
+.paper::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.pattern {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 1px, white 24px, teal 25px);
+}
+
+.content {
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-right: 16px;
+  line-height: 24px;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+  font-weight: 500;
+}
+
+.buttonRow {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.editButton {
+  width: 180px;
+  background-color: #cf9f00;
+  color: #fff;
+  border: 2px solid #cf9f00;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  margin: 0.25em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.editButton:hover {
+  background-color: #886a09;
+  border: 2px solid #886a09;
+}
+.editButton:active {
+  background-color: #886a09;
+  border: 2px solid #886a09;
+}
+.editButton:focus {
+  background-color: #cf9f00;
+  border: 2px solid #cf9f00;
+  box-shadow: none;
+}
+
+.joinButton {
+  width: 180px;
+  background-color: #05c321;
+  color: #fff;
+  border: 2px solid #05c321;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  margin: 0.75em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.joinButton:hover {
+  background-color: #006e11;
+  border: 2px solid #006e11;
+}
+.joinButton:active {
+  background-color: #006e11;
+  border: 2px solid #006e11;
+}
+.joinButton:focus {
+  background-color: #05c321;
+  border: 2px solid #05c321;
+  box-shadow: none;
+}
+
+.leaveButton {
+  width: 180px;
+  background-color: #d50000;
+  color: #fff;
+  border: 2px solid #d50000;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  margin: 0.75em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.leaveButton:hover {
+  background-color: #a00101;
+  border: 2px solid #a00101;
+}
+.leaveButton:active {
+  background-color: #a00101;
+  border: 2px solid #a00101;
+}
+.leaveButton:focus {
+  background-color: #d50000;
+  border: 2px solid #d50000;
+  box-shadow: none;
+}
+
+.reviewButton {
+  width: 180px;
+  background-color: #dbbf0a;
+  color: #fff;
+  border: 2px solid #dbbf0a;
+  border-radius: 0.3em;
+  padding: 0.7em 1em;
+  margin: 0.75em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.reviewButton:hover {
+  background-color: #a5810a;
+  border: 2px solid #a5810a;
+}
+.reviewButton:active {
+  background-color: #a5810a;
+  border: 2px solid #a5810a;
+}
+.reviewButton:focus {
+  background-color: #dbbf0a;
+  border: 2px solid #dbbf0a;
+  box-shadow: none;
+}
+
+.othersCol {
+  background-color: #eaf3f3;
+  padding: 2em;
+}
+
+.privacyRow {
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.privacyTextCol h3 {
+  font-size: 1.3em;
+  margin: 0;
+  margin-left: 0.3em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.statusTextCol h3 {
+  font-size: 1.3em;
+  margin: 0;
+  margin-left: 0.3em;
+  font-weight: 500;
+}
+
+.filtersRow {
+  text-align: left;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.iconImage {
+  user-select: none;
+  pointer-events: none;
+}
+
+.allowedImage {
+  user-select: none;
+  pointer-events: none;
+  margin-left: 0.5em;
+}
+
+.distanceTextCol h3 {
+  font-size: 1.3em;
+  margin: 0;
+  font-weight: 500;
+}
+
+.costsCol {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.costImage {
+  margin-right: 0.5em;
+}
+
+.passengersRow {
+  align-items: center;
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #0a8080;
+}
+
+.passengersTitleCol {
+  text-align: center;
+  padding: 0.5em;
+}
+.passengersTitleCol h3 {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.passengersCardsRow {
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  background-color: #eaf3f3;
+  text-align: center;
+}

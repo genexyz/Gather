@@ -1,0 +1,68 @@
+.section {
+  margin: 0;
+  min-width: 0;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  background-color: rgb(248, 240, 234);
+  background-image: url("../../public/images/backgrounds/subscribe-bg.webp");
+  background-size: contain;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.contentWrapper {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 auto 60px;
+  margin-bottom: 0;
+  margin-left: 0;
+  min-width: 0;
+}
+.heading h2 {
+  font-size: 36px;
+  letter-spacing: -1px;
+  line-height: 1.48;
+  font-family: B612, sans-serif;
+  font-weight: 700;
+}
+.heading p {
+  font-size: 16px;
+  line-height: 1.87;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.btn {
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contactCol {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading h2 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+  }
+}

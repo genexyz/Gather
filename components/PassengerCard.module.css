@@ -1,0 +1,152 @@
+.user {
+  align-items: center;
+}
+
+.userImage {
+  border-radius: 10em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.passengerCardDriver {
+  background-color: white;
+  border: 3px solid #0b6bbf;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0.5em;
+  min-height: 290px;
+}
+
+.passengerCard {
+  background-color: white;
+  border: 3px solid #0a8080;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0.5em;
+  min-height: 290px;
+}
+
+.passengerInfo h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.passengerInfo h4 {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.phoneLink {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.driverBio {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 255);
+  font-size: 0.9em;
+  color: #023c59;
+  font-weight: 500;
+  word-wrap: break-word;
+  min-height: 122px;
+}
+
+.passengerBio {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: azure;
+  font-size: 0.9em;
+  color: #025959;
+  font-weight: 500;
+  word-wrap: break-word;
+  min-height: 122px;
+}
+
+.passengerBio p {
+  margin: 0;
+}
+
+.driverProfileButton {
+  width: 120px;
+  padding: 0.4em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.75em;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  background-color: #0b8cbf;
+  border: 2px solid #0b8cbf;
+  border-radius: 0.1em;
+}
+
+.passengerProfileButton {
+  width: 120px;
+  padding: 0.4em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.75em;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  background-color: #0a8080;
+  border: 2px solid #0a8080;
+  border-radius: 0.1em;
+}
+.passengerProfileButton:hover {
+  background-color: rgb(16, 19, 45);
+  border: 2px solid rgb(16, 19, 45);
+}
+.passengerProfileButton:active {
+  background-color: rgb(16, 19, 45);
+  border: 2px solid rgb(16, 19, 45);
+}
+.passengerProfileButton:focus {
+  background-color: #0a8080;
+  border: 2px solid #0a8080;
+  box-shadow: none;
+}
+
+.passengerRemoveButton {
+  width: 185px;
+  padding: 0.4em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.75em;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  background-color: #d50000;
+  border: 2px solid #d50000;
+  border-radius: 0.1em;
+}
+.passengerRemoveButton:hover {
+  background-color: #a00101;
+  border: 2px solid #a00101;
+}
+.passengerRemoveButton:active {
+  background-color: #a00101;
+  border: 2px solid #a00101;
+}
+.passengerRemoveButton:focus {
+  background-color: #d50000;
+  border: 2px solid #d50000;
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .passengerCard {
+    min-height: 275px;
+  }
+  .passengerBio {
+    word-wrap: break-word;
+    min-height: 90px;
+  }
+}

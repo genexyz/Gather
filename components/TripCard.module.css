@@ -1,0 +1,242 @@
+.tripCard {
+  margin: 0.5em;
+  min-height: 470px;
+  border-radius: 1.25em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 6px 2px #ccc;
+  text-align: center;
+}
+
+.tripCardHeader {
+  border-radius: 1.25em 1.25em 0 0;
+  box-shadow: 0 0 6px 2px #ccc;
+  height: 75px;
+}
+
+.transparent {
+  background: transparent;
+}
+.white {
+  color: white;
+}
+.borderWhite {
+  border: 2px solid white;
+}
+.borderWhite:hover {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.red {
+  background: linear-gradient(140deg, rgba(190, 5, 0, 1) 0%, rgba(255, 70, 65, 1) 100%);
+  border-color: rgba(190, 5, 0, 1);
+}
+.textRed {
+  color: rgba(190, 5, 0, 1);
+}
+.borderRed {
+  border: 2px solid rgba(190, 5, 0, 1);
+}
+.borderRed:hover {
+  border: 2px solid rgb(150, 5, 0);
+  background: linear-gradient(140deg, rgba(150, 5, 0, 1) 0%, rgb(210, 46, 41) 100%);
+}
+
+.yellow {
+  background: linear-gradient(
+    140deg,
+    rgba(242, 177, 0, 1) 0%,
+    rgba(255, 197, 50, 1) 100%
+  );
+  border-color: rgba(242, 177, 0, 1);
+}
+.textYellow {
+  color: rgba(242, 177, 0, 1);
+}
+.borderYellow {
+  border: 2px solid rgba(242, 177, 0, 1);
+}
+.borderYellow:hover {
+  border: 2px solid rgb(203, 149, 2);
+  background: linear-gradient(140deg, rgba(203, 149, 2) 0%, rgb(227, 174, 41) 100%);
+}
+
+.green {
+  background: linear-gradient(
+    140deg,
+    rgba(106, 163, 0, 1) 0%,
+    rgba(167, 231, 48, 1) 100%
+  );
+  border-color: rgba(106, 163, 0, 1);
+}
+.textGreen {
+  color: rgba(106, 163, 0, 1);
+}
+.borderGreen {
+  border: 2px solid rgba(106, 163, 0, 1);
+}
+.borderGreen:hover {
+  border: 2px solid rgb(80, 123, 0);
+  background: linear-gradient(140deg, rgb(80, 123, 0) 0%, rgb(136, 190, 34) 100%);
+}
+
+.profilePicture {
+  float: left;
+  width: 100%;
+  max-width: 74px;
+  height: 74px;
+  border: 2px solid #fff;
+  box-shadow: 0 3px 6px 1px rgb(184, 184, 184);
+  position: absolute;
+  border-radius: 50px;
+  left: 14px;
+  top: 16px;
+}
+
+.driverDetails {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5em;
+  margin-left: 100px;
+  margin-top: 0.4em;
+  text-align: left;
+}
+.driverDetails p {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.signInLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.tripBody {
+  padding: 0.5em;
+}
+
+.tripTitle {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-left: 0.25em;
+}
+
+.tripLocationName {
+  width: 80%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.tripArrow {
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-left: 0.25em;
+  width: 80%;
+}
+.tripArrow img {
+  margin-right: 10px;
+}
+
+.tripLocation {
+  margin-top: 0.9em;
+}
+
+.tripToFromLocation {
+  margin: 0.25em;
+  align-items: center;
+}
+
+.tripPlaceholder {
+  text-align: center;
+  width: 16.66666667%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tripText {
+  margin-top: 0.5em;
+}
+.tripText p {
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+}
+.tripText p span {
+  font-weight: 700;
+}
+
+.dateRow {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  align-items: center;
+  text-align: center;
+}
+
+.dateTextCol p {
+  text-align: center;
+  font-size: 1.1em;
+  margin-right: 1em;
+  margin-left: -1em;
+}
+
+.availableSeats span {
+  font-size: 2.5em;
+}
+
+.viewTripBtn {
+  width: 120px;
+  padding: 0.5em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.5em;
+  font-size: 1.1em;
+  font-weight: 700;
+  border-radius: 0.5em;
+}
+.viewTripBtn:focus {
+  box-shadow: none;
+}
+
+.disabledCard {
+  background: rgb(13, 178, 180);
+  background: linear-gradient(335deg, rgb(13, 119, 180) 24%, rgb(0, 50, 106) 100%);
+  color: white;
+}
+
+.noSeatsRow {
+  text-align: left;
+  justify-content: right;
+}
+
+.noSeatsDiv {
+  margin-top: 1em;
+  margin-right: 0.1em;
+  width: 70%;
+  height: 50px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    146deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+}
+
+.tripLocationIcon {
+  color: white;
+}

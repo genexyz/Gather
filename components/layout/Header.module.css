@@ -1,0 +1,79 @@
+.header {
+  background: #f9fafc;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.item {
+  margin-right: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 1.2em !important;
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.login {
+  padding-top: 0em;
+  margin-left: 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.toggler {
+  border-color: black !important;
+}
+
+.togglerIcon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.languageItem {
+  margin-left: 15px;
+  margin-right: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3em;
+}
+
+.arrowIcon {
+  margin-left: 0.5em;
+}
+
+.languageMenu {
+  width: 70px !important;
+  min-width: 70px !important;
+}
+
+.languageFlagDiv:active {
+  background-color: #0a8080bb;
+}
+
+@media (max-width: 991px) {
+  .login {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .item {
+    margin-right: 0px;
+  }
+  .languageItem {
+    margin-right: 0px;
+  }
+  .languageMenu {
+    left: auto !important;
+    position: absolute !important;
+  }
+}

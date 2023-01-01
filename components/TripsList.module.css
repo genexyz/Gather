@@ -1,0 +1,95 @@
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2em;
+  padding-top: 1em;
+  border: 0px solid black;
+  margin-bottom: 1em;
+  width: 95%;
+}
+
+.titleRow {
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid gray;
+  margin-bottom: 1em;
+}
+
+.titleH1 {
+  padding-left: 0.25em;
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tripCard {
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  min-height: 24em;
+  text-align: center;
+}
+.tripCardActive {
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: 3px solid tomato;
+  background-color: rgb(255, 255, 255);
+  min-height: 24em;
+  text-align: center;
+}
+.cardHeader {
+  display: flex;
+}
+.tripTitle {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 0.5em;
+  padding-bottom: 0.25em;
+  width: 80%;
+}
+.tripIcon {
+  margin: 0;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 0.75em;
+}
+.tripText p {
+  font-size: 1em;
+  margin: 0;
+}
+.tripText p span {
+  font-weight: 700;
+}
+.tripText .tripDate {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.cardFooter button {
+  margin: 0.25em;
+}
+
+@media (max-width: 767px) {
+  .tripCard {
+    margin-bottom: 0.25em;
+  }
+
+  .titleH1 {
+    padding-left: 0.25em;
+    font-size: 2em;
+  }
+
+  .addAdminBtn {
+    padding: 0.3em 0.75em;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  .container {
+    margin-bottom: 0em;
+  }
+}

@@ -1,0 +1,120 @@
+.faqs {
+  max-width: 768px;
+  margin: auto auto 0 auto;
+  padding: 0 15px 0 100px;
+  width: 80%;
+}
+
+.faqGroup {
+  margin-bottom: 25px;
+}
+
+.faqGroupTitle {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 2em;
+  padding-top: 6em;
+  display: flex;
+}
+
+.questionsSidebar {
+  width: 20%;
+  top: 40%;
+  position: fixed;
+  transform: translate3d(0, -50%, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.questionsSidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.questionsSidebar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.questionsSidebar a:hover {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  background: #56e3b8;
+}
+.questionsSidebar a:active {
+  color: #000;
+  text-decoration: none;
+}
+.questionsSidebar a:visited {
+  color: #000;
+  text-decoration: none;
+}
+.questionsSidebar a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Tablet landscape styles */
+@media screen and (min-width: 768px) {
+  .questionsSidebar {
+    display: flex;
+    flex: 1;
+  }
+  .faqs {
+    flex: 2.1;
+  }
+
+  .questionsSidebar ul {
+    top: 50%;
+    list-style: none;
+  }
+  .questionsSidebar ul li {
+    font-size: 0.9rem;
+    max-width: 200px;
+    margin-bottom: 0.5em;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .questionsSidebar a:hover {
+    padding-left: 5px;
+    background: #56e3b8;
+  }
+  .questionsSidebar a .active {
+    background: #56e3b8;
+    padding-left: 15px;
+  }
+}
+
+/* Tablet vertical styles */
+@media screen and (min-width: 1024px) {
+  .questionsSidebar {
+    min-width: 250px;
+  }
+  .faqs {
+    flex: 2.5;
+  }
+}
+/* Desktop styles */
+@media screen and (min-width: 1140px) {
+  .questionsSidebar {
+    min-width: 250px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .questionsSidebar {
+    display: none;
+  }
+  .faqs {
+    padding: 0 15px 0 15px;
+    width: 100%;
+  }
+}

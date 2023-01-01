@@ -1,0 +1,27 @@
+.section {
+  background-color: #ffffff;
+  padding-top: 6em;
+  min-height: 60vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2em;
+  padding-top: 1em;
+  border: 0px solid black;
+  margin-bottom: 1em;
+  width: 95%;
+}
+
+.titleH1 {
+  padding-left: 0.25em;
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tripsList {
+  margin-bottom: 2em;
+}

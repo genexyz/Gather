@@ -1,0 +1,190 @@
+.section {
+  background-color: #ffffff;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border: 0px solid black;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.mainRow {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.mainRow h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+.profileImage {
+  border-radius: 10em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.userData h2 {
+  text-align: middle;
+  font-size: 2.25em;
+  font-weight: 600;
+}
+
+.userData p {
+  text-align: middle;
+  font-size: 1em;
+  color: black;
+}
+
+.averageRating {
+  margin-bottom: 1em;
+}
+
+.averageRating h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.starsAverage {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.stars {
+  top: 5px;
+}
+
+.driverTrips {
+  font-weight: 700;
+  pointer-events: none;
+  user-select: none;
+}
+
+.passengerTrips {
+  font-weight: 700;
+  pointer-events: none;
+  user-select: none;
+}
+
+.reviewsTitleRow {
+  margin-top: 1.5em;
+  text-align: center;
+  align-items: center;
+  border-top: 2px solid black;
+}
+
+.reviewsTitleRow h1 {
+  padding-top: 0.5em;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+.sortBtn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+}
+.sortBtn:hover {
+  background-color: white;
+  color: black;
+}
+.sortBtn:focus {
+  background-color: white;
+  color: black;
+}
+.sortBtn:active {
+  background-color: white !important;
+  color: black !important;
+}
+
+.sortDown {
+  margin-left: 1em;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.sortUp {
+  margin-left: 1em;
+}
+
+.reviewCard {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.reviewCardHeader {
+  background-color: rgb(255, 255, 255);
+  border: 0px solid black;
+  margin-bottom: 0.25em;
+}
+
+.reviewCardTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+.loginBtn {
+  width: 260px;
+  background-color: #0a8080;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.loginBtn:hover {
+  background-color: #056565;
+}
+.loginBtn:active {
+  background-color: #056565;
+}
+.loginBtn:focus {
+  background-color: #0a8080;
+  box-shadow: none;
+}
+.userEditBtn {
+  margin: 1em 1em 2em 1em;
+}
+.name {
+  margin-bottom: 1em;
+}
+.nameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noReviews {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}

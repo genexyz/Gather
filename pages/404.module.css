@@ -1,0 +1,59 @@
+.section404 {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  margin: 0;
+  background: #f0f0f0;
+  height: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.img {
+  pointer-events: none;
+  user-select: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #1fa77e;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 0.25em;
+  padding: 0.3em 0.75em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #0b7e5c;
+  color: #fff;
+}
+.btn:active {
+  background-color: #0b7e5c;
+  color: #fff;
+}
+.btn:focus {
+  background-color: #1fa77e;
+  box-shadow: none;
+}
+
+.text {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.errorText {
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .section404 {
+    padding-top: 7em;
+  }
+
+  .img {
+    width: 343px;
+    height: 180px;
+  }
+}

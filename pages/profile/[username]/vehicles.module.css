@@ -1,0 +1,112 @@
+.section {
+  background-color: #ffffff;
+  padding-top: 6em;
+  min-height: 60vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  width: 95%;
+}
+
+.titleRow {
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid gray;
+}
+
+.titleH1 {
+  padding-left: 0.25em;
+  color: rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.addAdminCol {
+  text-align: right;
+}
+
+.addAdminBtn {
+  background-color: #1fa77e;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 0.25em;
+  padding: 0.3em 0.75em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.addAdminBtn:hover {
+  background-color: #0b7e5c;
+  color: #fff;
+}
+.addAdminBtn:active {
+  background-color: #0b7e5c;
+  color: #fff;
+}
+.addAdminBtn:focus {
+  background-color: #1fa77e;
+  box-shadow: none;
+}
+.addAdminBtn:disabled {
+  background-color: #1fa77e;
+}
+
+.vehicleRow {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.vehicleCard {
+  margin: 0.5em;
+  border-radius: 1.25em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 6px 2px #ccc;
+  text-align: center;
+}
+
+.vehicleTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 0.25em;
+}
+
+.vehicleText p {
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+}
+
+.vehicleText p span {
+  font-weight: 700;
+}
+
+.vehicleFooter button {
+  margin: 0.25em;
+}
+
+@media (max-width: 767px) {
+  .vehicleCard {
+    margin-bottom: 0.25em;
+  }
+
+  .titleH1 {
+    padding-left: 0.25em;
+    font-size: 2em;
+  }
+
+  .addAdminBtn {
+    padding: 0.3em 0.75em;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  .container {
+    margin-bottom: 0em;
+  }
+}

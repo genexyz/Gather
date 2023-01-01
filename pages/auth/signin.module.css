@@ -1,0 +1,90 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.container {
+  width: 95% !important;
+  margin-top: 12em;
+  margin-bottom: 2em;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.cardWrapper {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContent {
+  width: 100%;
+  background-color: #f9fff9;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.cardContent hr {
+  color: white;
+  opacity: 0.8;
+}
+
+.cardContent button {
+  line-height: 1.5;
+  font-weight: 500;
+  box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.178);
+  height: 42px;
+  padding: 4px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgb(34, 160, 126);
+  border: 2px solid #000000;
+  width: 100%;
+  text-shadow: 2px 2px 2px black;
+}
+.cardContent button:hover {
+  background-color: rgb(0, 130, 95);
+  border: 2px solid #000000;
+}
+.cardContent button:active {
+  background-color: rgb(0, 130, 95);
+  border: 2px solid #000000;
+}
+.cardContent button:focus {
+  background-color: rgb(34, 160, 126);
+  box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.178);
+  border: 2px solid #000000;
+}
+
+.providerDiv {
+  margin: 1em;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 95% !important;
+    margin-top: 8em;
+    margin-bottom: 2em;
+  }
+
+  .cardWrapper {
+    width: 325px;
+  }
+}

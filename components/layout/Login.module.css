@@ -1,0 +1,50 @@
+.loginCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px rgb(0, 0, 0) !important;
+  overflow: hidden;
+}
+
+.dropdownToggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userName {
+  cursor: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.userName:active {
+  background-color: rgb(233, 236, 239);
+  color: black;
+}
+.userName p {
+  margin-bottom: 0;
+}
+
+.logOut {
+  cursor: pointer;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.logOut:active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.logOut p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .userName {
+    white-space: normal;
+  }
+}

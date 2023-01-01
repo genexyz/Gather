@@ -1,0 +1,27 @@
+TODO:
+[APP-WIDE]
+-Implement i18n translation on images alt description.
+-Implement logic to translate backend form inputs validations with i18n.
+-Validate that all api endpoints return correct errorcodes in forms inputs.
+-Validate that the web supports keyboard driven browsing.
+-Change Dropdowns light blue background for options.
+-Implement app testing (A different library than Cypress to learn a new one)
+-Optimize again with lighthouse and sonarcloud.
+-Organize components folder.
+-Remove or organize comments on imports on each file.
+-Paginate or Implement infinite scrolling on trips
+-Paginate or Implement infinite scrolling on reviews
+-App-wide notification system to inform of trip status changes and chat messages.
+
+[ACCOUNT & LOGIN]
+-Ask for users to add an email when they login through Facebook.
+-Implement an image uploading feature instead of entering the image url for users images.
+-Button to delete an account with validation in the user profile. And tooltip that you can delete account on login page.
+-Test user to use app-wide without requiring social login.
+-Tooltip on login page that the users can be deleted (mostly for quick testing purposes of the full features with a real account, although the test account should be enough for this).
+
+[TRIP]
+-Live chat for passengers inside a trip page. (Socket.Io?)
+-Embed map with recommended route for the trip.
+-Add restrictions to description and notes length. Validate max height of divs.
+-i18n on estimated time. Now shows only english.

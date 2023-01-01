@@ -1,0 +1,118 @@
+.section {
+  padding-bottom: 130px;
+  padding-top: 80px;
+  margin: 0;
+  min-width: 0;
+}
+
+.heading {
+  margin: 0 auto 60px;
+  text-align: center;
+  min-width: 0;
+}
+.heading h2 {
+  font-size: 36px;
+  line-height: 1.48;
+  font-weight: 700;
+  font-family: B612, sans-serif;
+  letter-spacing: -1px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.heading p {
+  font-size: 16px;
+  line-height: 2.2;
+  margin: 10px auto 0;
+}
+
+.teamWrapper {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 0px;
+  transition: 0.3s ease-in-out 0s;
+}
+.teamWrapper .swiperArrow {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 7px 14px rgba(25, 60, 101, 0.06);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 40px);
+  transform: translateY(-50%);
+  outline: 0;
+}
+.teamWrapper .swiperArrow img {
+  pointer-events: none;
+  user-select: none;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.teamWrapper .swiperArrowLeft {
+  left: 50px;
+}
+.teamWrapper .swiperArrowLeft img {
+  margin-left: -4px;
+  transform: rotate(180deg);
+}
+.teamWrapper .swiperArrowRight {
+  right: 50px;
+}
+.teamWrapper .swiperArrowRight img {
+  margin-right: -4px;
+}
+
+@media (max-width: 1199px) {
+  .teamWrapper .swiperArrow {
+    width: 40px;
+    height: 40px;
+  }
+  .teamWrapper .swiperArrowLeft {
+    left: 20px;
+  }
+  .teamWrapper .swiperArrowRight {
+    right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .teamWrapper .swiperArrow {
+    width: 35px;
+    height: 35px;
+  }
+  .teamWrapper .swiperArrow img {
+    max-width: 12px;
+  }
+  .teamWrapper .swiperArrowLeft {
+    left: 15px;
+  }
+  .teamWrapper .swiperArrowRight {
+    right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-bottom: 100px;
+  }
+  .heading h2 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+  }
+  .heading p {
+    font-size: 16px;
+    line-height: 2.2;
+    max-width: 85%;
+  }
+  .teamWrapper {
+    padding-right: 30px;
+  }
+}
